@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=$('#contactForm');if(f)f.onsubmit=e=>{e.preventDefault();toast('Thanks! Your inquiry has been submitted.');f.reset()}})
